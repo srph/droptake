@@ -1,7 +1,7 @@
 {
   "name": "droptake",
   "version": "0.1.0",
-  "description": "",
+  "description": "Take values from an array from any starting position",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test.js"
