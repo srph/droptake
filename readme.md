@@ -24,7 +24,7 @@ droptake(array, 2); // [1, 2]
 ```
 
 ### API
-`droptake(array, n[, start]);`
-- `array` - Array
-- `n` - Number of values to take
-- `start` - Starting position
+`droptake(array, n[, start]): Array`
+- `array` (`Array`) - Array
+- `n` (`Int`) - Number of values to take
+- `start` (`Int`) - Starting position
