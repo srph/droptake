@@ -22,3 +22,9 @@ You can leave out the last parameter which takes values starting from position 0
 ```
 droptake(array, 2); // [1, 2]
 ```
+
+### API
+`droptake(array, n[, start]);`
+- `array` - Array
+- `n` - Number of values to take
+- `start` - Starting position
