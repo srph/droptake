@@ -9,8 +9,16 @@ lodash vs droptake:
 ```diff
 var arr = [1, 2, 3, 4, 5, 6];
 - _.take(_.drop(arr, 2), 2);
-+ droptake(arr, 2, 2); 
++ droptake(arr, 2, 2);
 ```
+
+Array.prototype.splice vs droptake:
+```diff
+- arr.splice(2, 4);
++ droptake(arr, 2, 2);
+```
+
+Nah, you really don't need this library.
 
 ### Usage
 ```js
